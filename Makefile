@@ -1,6 +1,6 @@
 # You can change these variables if you want to use a different compiler or debugger
 CC = gcc
-DBG = lldb
+DBG = gdb
 
 build-main: build-dir
 	$(CC) -Wall -O0 -g -o build/main src/main.c
