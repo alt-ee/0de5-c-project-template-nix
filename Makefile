@@ -1,5 +1,5 @@
 # You can change these variables if you want to use a different compiler or debugger
-CC = clang
+CC = gcc
 DBG = lldb
 
 build-main: build-dir
