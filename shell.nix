@@ -10,4 +10,6 @@ pkgs.mkShell {
 		[ -x ~/.bashrc ] && source ~/.bashrc
 		echo "Nix shell entered"
 	'';
+
+	hardeningDisable = [ "all" ];
 }
